@@ -4,8 +4,9 @@ export default function Home() {
   return (
     <div>
       <h1>
-        {"helloz. we have dogz. click on them for more info.".toUpperCase()}
-      </h1>
+        {"Dog Finder".toUpperCase()}
+          </h1>
+          <h2>Click on the Dog's Name to get more Information about the Dog</h2>
       <Outlet />
     </div>
   );
