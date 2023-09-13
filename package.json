@@ -1,14 +1,19 @@
 {
-  " name": "21-react-router-dog-finder",
+  "name": "dog-finder",
+  "homepage": "https://VelamPillai.github.io/Dog-Finder-App",
   "version": "1.0.0",
   "description": "des",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predelopy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "D": "^1.0.0",
+    "gh-pages": "^6.0.0",
     "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
